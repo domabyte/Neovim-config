@@ -121,7 +121,7 @@ sudo apt install -y golang-go shfmt black silversearcher-ag exuberant-ctags
 |--------|-------------|
 | `preservim/tagbar` | Symbol/tag browser sidebar |
 | `rmagatti/auto-session` | Automatic session save/restore |
-| `alexghergh/nvim-tmux-navigation` | Seamless Neovim ↔ tmux pane navigation |
+| `christoomey/vim-tmux-navigator` | Seamless Neovim ↔ tmux pane navigation (auto-disabled outside tmux) |
 | `tpope/vim-eunuch` | Unix file commands (Rename, Move, Delete…) |
 | `swagger-preview` | Open Swagger/OpenAPI specs in browser |
 
@@ -136,7 +136,7 @@ sudo apt install -y golang-go shfmt black silversearcher-ag exuberant-ctags
 | Key | Action |
 |-----|--------|
 | `<C-h/j/k/l>` | Move between splits / tmux panes |
-| `<C-p>` | Find files (Snacks / Telescope) |
+| `<C-p>` | Find files (Snacks) |
 | `<Space><Space>` | Recent files |
 | `<Space>fb` | Buffer list (Snacks) |
 | `<Space>fg` | Live grep across project |

@@ -1,4 +1,6 @@
-return {
+local in_tmux = vim.fn.environ()["TMUX"] ~= nil
+
+return in_tmux and {
   "christoomey/vim-tmux-navigator",
   cmd = {
     "TmuxNavigateLeft",
@@ -15,4 +17,4 @@ return {
     { "<c-l>", "<cmd><C-U>TmuxNavigateRight<cr>" },
     { "<c-\\>", "<cmd><C-U>TmuxNavigatePrevious<cr>" },
   },
-}
+} or {}

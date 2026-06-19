@@ -12,9 +12,9 @@
 ## File Navigation
 | Key | Action | Plugin |
 |-----|--------|--------|
-| `<C-p>` | Find files | snacks / telescope |
-| `<leader>fg` | Live grep | snacks / telescope |
-| `<leader><leader>` | Recent files | snacks / telescope |
+| `<C-p>` | Find files | snacks |
+| `<leader>fg` | Live grep | snacks |
+| `<leader><leader>` | Recent files | snacks |
 | `<leader>fb` | Buffers list | snacks |
 | `<leader>f` | Files (fzf) | fzf |
 | `<leader>b` | Buffers (fzf) | fzf |
