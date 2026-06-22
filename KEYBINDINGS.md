@@ -86,5 +86,17 @@
 |-----|--------|--------|
 | `<F8>` | Toggle tagbar | tagbar |
 
+## Clipboard (`vim-options.lua`)
+| Key | Mode | Action |
+|-----|------|--------|
+| `<leader>y` | n/v | Yank selection to system clipboard |
+| `<leader>Y` | n/v | Yank line to system clipboard |
+| `<leader>p` | n/v | Paste from system clipboard |
+| `<leader>P` | n | Paste before cursor from system clipboard |
+| `<leader>d` | n/v | Delete selection to system clipboard |
+| `<leader>D` | n/v | Delete line to system clipboard |
+
+All modes also sync via `clipboard=unnamedplus` — regular `y`, `d`, `p` also touch the system clipboard.
+
 ## Notes
 - `<C-p>`, `<leader>fg`, `<leader><leader>`, `<C-n>`: bound by both Snacks and Telescope/nvim-tree — last loaded plugin wins

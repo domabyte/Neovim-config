@@ -225,6 +225,19 @@ sudo apt install -y golang-go shfmt black silversearcher-ag exuberant-ctags
 | `<Space>sf` | Toggle scratch buffer |
 | `<Space>S` | Pick scratch buffer |
 
+### Clipboard
+
+System clipboard integration via `clipboard=unnamedplus` — any yank, delete, or paste also syncs with the macOS system clipboard (`pbcopy`/`pbpaste`). Explicit bindings for when you want to be deliberate:
+
+| Key | Mode | Action |
+|-----|------|--------|
+| `<Space>y` | n/v | Yank selection to system clipboard |
+| `<Space>Y` | n/v | Yank line to system clipboard |
+| `<Space>p` | n/v | Paste from system clipboard |
+| `<Space>P` | n | Paste before cursor from system clipboard |
+| `<Space>d` | n/v | Delete selection to system clipboard |
+| `<Space>D` | n/v | Delete line to system clipboard |
+
 ---
 
 ## Mason Setup
