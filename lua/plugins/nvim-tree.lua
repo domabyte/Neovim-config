@@ -8,7 +8,7 @@ return {
 	{
 		"scrooloose/nerdtree",
 		config = function()
-			vim.api.nvim_set_keymap("n", "<C-n>", ":NERDTreeToggle<CR>", {
+			vim.api.nvim_set_keymap("n", "<leader>nt", ":NERDTreeToggle<CR>", {
 				noremap = true,
 				silent = true,
 			})

@@ -22,8 +22,8 @@
 | `<leader>k` | Ag search | fzf |
 | `<C-f>` | File tree (right) | neo-tree |
 | `<C-a>` | Buffer tree (float) | neo-tree |
-| `<leader>nr` | Rename file | neo-tree |
-| `<C-n>` | File explorer | snacks / nvim-tree |
+| `<C-n>` | Create / open new file | vim-options |
+| `<leader>nt` | Toggle NERDTree | nvim-tree |
 | `-` | Float file browser | oil |
 
 ## LSP (`lsp-config.lua`)
@@ -99,4 +99,4 @@
 All modes also sync via `clipboard=unnamedplus` — regular `y`, `d`, `p` also touch the system clipboard.
 
 ## Notes
-- `<C-p>`, `<leader>fg`, `<leader><leader>`, `<C-n>`: bound by both Snacks and Telescope/nvim-tree — last loaded plugin wins
+- `<C-p>`, `<leader>fg`, `<leader><leader>`: bound by both Snacks and Telescope — last loaded plugin wins

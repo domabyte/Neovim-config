@@ -13,6 +13,7 @@ vim.keymap.set('n', '<c-h>', ':wincmd h<CR>')
 vim.keymap.set('n', '<c-l>', ':wincmd l<CR>')
 
 vim.keymap.set('n', '<leader>h', ':nohlsearch<CR>')
+vim.keymap.set('n', '<C-n>', ':e ', { desc = 'Create / open new file' })
 vim.wo.number = true
 
 -- System clipboard integration (macOS pbcopy/pbpaste)
